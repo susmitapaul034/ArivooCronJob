@@ -1,0 +1,15 @@
+D:\Arivoo Project\CronJob\ERPCronJob\DBAccess\obj\Debug\net8.0\DBAccess.csproj.AssemblyReference.cache
+D:\Arivoo Project\CronJob\ERPCronJob\DBAccess\obj\Debug\net8.0\DBAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arivoo Project\CronJob\ERPCronJob\DBAccess\obj\Debug\net8.0\DBAccess.AssemblyInfoInputs.cache
+D:\Arivoo Project\CronJob\ERPCronJob\DBAccess\obj\Debug\net8.0\DBAccess.AssemblyInfo.cs
+D:\Arivoo Project\CronJob\ERPCronJob\DBAccess\obj\Debug\net8.0\DBAccess.csproj.CoreCompileInputs.cache
+D:\Arivoo Project\CronJob\ERPCronJob\DBAccess\bin\Debug\net8.0\DBAccess.deps.json
+D:\Arivoo Project\CronJob\ERPCronJob\DBAccess\bin\Debug\net8.0\DBAccess.dll
+D:\Arivoo Project\CronJob\ERPCronJob\DBAccess\bin\Debug\net8.0\DBAccess.pdb
+D:\Arivoo Project\CronJob\ERPCronJob\DBAccess\bin\Debug\net8.0\Model.dll
+D:\Arivoo Project\CronJob\ERPCronJob\DBAccess\bin\Debug\net8.0\Model.pdb
+D:\Arivoo Project\CronJob\ERPCronJob\DBAccess\obj\Debug\net8.0\DBAccess.csproj.Up2Date
+D:\Arivoo Project\CronJob\ERPCronJob\DBAccess\obj\Debug\net8.0\DBAccess.dll
+D:\Arivoo Project\CronJob\ERPCronJob\DBAccess\obj\Debug\net8.0\refint\DBAccess.dll
+D:\Arivoo Project\CronJob\ERPCronJob\DBAccess\obj\Debug\net8.0\DBAccess.pdb
+D:\Arivoo Project\CronJob\ERPCronJob\DBAccess\obj\Debug\net8.0\ref\DBAccess.dll

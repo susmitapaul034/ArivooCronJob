@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ERPCronJob", "ERPCronJob\ERPCronJob.csproj", "{8827A699-626B-4369-B485-9F92E126B6BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBAccess", "DBAccess\DBAccess.csproj", "{E49791B8-9B50-4999-96F8-791B6897F652}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "Model\Model.csproj", "{440585EC-08C5-44AC-BC1E-08FCAA2FE07B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8827A699-626B-4369-B485-9F92E126B6BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8827A699-626B-4369-B485-9F92E126B6BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8827A699-626B-4369-B485-9F92E126B6BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8827A699-626B-4369-B485-9F92E126B6BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E49791B8-9B50-4999-96F8-791B6897F652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E49791B8-9B50-4999-96F8-791B6897F652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E49791B8-9B50-4999-96F8-791B6897F652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E49791B8-9B50-4999-96F8-791B6897F652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{440585EC-08C5-44AC-BC1E-08FCAA2FE07B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{440585EC-08C5-44AC-BC1E-08FCAA2FE07B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{440585EC-08C5-44AC-BC1E-08FCAA2FE07B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{440585EC-08C5-44AC-BC1E-08FCAA2FE07B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75704F55-CEB2-43FC-A79F-8D2EF0911DA5}
+	EndGlobalSection
+EndGlobal
