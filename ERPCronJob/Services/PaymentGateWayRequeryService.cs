@@ -7,7 +7,7 @@ using System.Text;
 using DBAccess.Interface;
 using DBAccess.Implementation;
 using Model;
-using Models;
+
 
 namespace ERPCronJob.Services
 {

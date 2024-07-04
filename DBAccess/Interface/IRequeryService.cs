@@ -1,5 +1,4 @@
 ﻿using Model;
-using Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,5 +13,10 @@ namespace DBAccess.Interface
         Task<List<ValidTransactionforPaymentGatewayRequest>> GetValidTransactionsForPaymentGateawayRecheck();
         Task<int> SavePaymentGatewayResponse(PGPaymentResponseModel pGPaymentResponseModel, int TransactionMasterID, string TransactionNo);
         Task<List<ValidTransactionforPaymentGatewayRequest>> GetValidTransactionsForERPSattlement();
+        Task<InternalPaymentDto> CheckArivooPaymentStatus(string TransactionNo);
+
+        Task<APIResponse<List<Transaction>>> CancelPendingTransaction(StudentPayablePaymentDto studentPayablePaymentDto);
+        Task<APIResponse<List<Transaction>>> AdjustPendingTransaction(StudentPayablePaymentDto studentPayablePaymentDto);
+        Task<int> SaveERPResponse(TransactionSchedularAdjustment transactionSchedularAdjustment);
     }
 }

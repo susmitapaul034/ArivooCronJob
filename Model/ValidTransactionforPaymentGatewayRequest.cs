@@ -13,13 +13,13 @@ namespace Model
         public int I_Transaction_Master_ID { get; set; }
         public string S_Current_Status { get; set; }
         public string CompleteStatus { get; set; }
-        public int? CronCanBeProcess { get; set; }
+        public bool? CronCanBeProcess { get; set; }
         public int? PG_NoOfAttempt { get; set; }
         public int? ERP_NoOfAttempt { get; set; }
         public int StatusID { get; set; }
         public DateTime CreatedOn { get; set; }
         public DateTime? CompletedOn { get; set; }
-        public bool? Is_PG_Success { get; set; }
+        public bool? Is_PG_Sucess { get; set; }
         public bool? Is_PG_Failure { get; set; }
         public bool? Is_Failed_User { get; set; }
         public int? Requery_PG_LogID { get; set; }

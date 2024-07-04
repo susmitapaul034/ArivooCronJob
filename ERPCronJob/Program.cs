@@ -17,13 +17,20 @@ builder.Services.AddScoped<IRequeryService, RequeryService>();
 builder.Services.AddScoped<IERPRequeryService, ERPRequeryService>();
 
 // Register services needed for your application
-builder.Services.AddCronJob<PaymentGateWayRequeryJob>(config =>
-    {
-        config.CronExpression = "0 * * * * ?"; // Example cron expression
-        config.TimeZoneInfo = TimeZoneInfo.Local;
-    });
+//builder.Services.AddCronJob<PaymentGateWayRequeryJob>(config =>
+//    {
+//        config.CronExpression = "0 * * * * ?"; // Example cron expression
+//        config.TimeZoneInfo = TimeZoneInfo.Local;
+//    });
 
-    var app = builder.Build();
+
+builder.Services.AddCronJob<ERPRequeryJob>(config =>
+{
+    config.CronExpression = "0 * * * * ?"; // Example cron expression
+    config.TimeZoneInfo = TimeZoneInfo.Local;
+});
+
+var app = builder.Build();
 
     if (app.Environment.IsDevelopment())
     {

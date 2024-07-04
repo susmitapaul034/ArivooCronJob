@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ERPCronJob")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8db79f4c67ea6e515a73c03392f812039730bba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5d2e8c2da9e1ffe4c4206c9f4319cbe6fe7bd45")]
 [assembly: System.Reflection.AssemblyProductAttribute("ERPCronJob")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ERPCronJob")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
